@@ -1,0 +1,57 @@
+.container {
+  text-align: center;
+}
+
+body{
+  background-color: #9716D4;
+  font-family: cherry;
+}
+
+@font-face {
+  font-family: cherry;
+  src: url("/TCC/assets/fonts/Cherry.ttf");
+  }
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 150px); /* Increased cell size */
+  grid-gap: 15px; /* Increased gap */
+  margin: 50px auto; /* Center the game */
+  align-items: center;
+  margin-left: 300px;
+}
+
+.cell {
+  width: 150px; /* Increased cell size */
+  height: 150px; /* Increased cell size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem; /* Increased font size */
+  cursor: pointer;
+  border: 5px solid #ffffff; /* Increased border size */
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}

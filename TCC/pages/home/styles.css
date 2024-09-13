@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: dino;
+    src: url("/TCC/assets/fonts/Dinokids.ttf");
+}
+
+@font-face {
+font-family: cherry;
+src: url("/TCC/assets/fonts/Cherry.ttf");
+}
+
+@font-face {
+font-family: kids;
+src: url("/TCC/assets/fonts/Kids\ Swing.ttf");
+}
+
+@font-face {
+font-family: squire;
+src: url("/TCC/assets/fonts/Squire\ Hawaii\ .otf");
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #7F3FBF;
@@ -48,6 +68,10 @@ main {
 
 }
 
+.botoes {
+    display: flex;
+}
+
 .logo {
     flex: 1;
     text-align: left;
@@ -81,6 +105,7 @@ main {
     cursor: pointer;
     width: 70%;
     justify-content: center;
+    font-family: cherry;
 }
 
 .menu-button .icon img {
